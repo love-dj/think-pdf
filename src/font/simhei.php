@@ -22,4 +22,4 @@ $enc = 'cp1252';
 $diff = '';
 $file = 'simhei.z';
 $originalsize = 9751720;
-?>
+
