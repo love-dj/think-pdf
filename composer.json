@@ -1,0 +1,29 @@
+{
+    "name": "love-dj/pdf",
+    "description": "pdf for thinkphp",
+    "keywords": [
+        "pdf",
+        "thinkphp"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "心情love",
+            "email": "myhsj@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "setasign/fpdi-protection": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "extra": {
+    }
+}
