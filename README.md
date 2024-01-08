@@ -1,5 +1,5 @@
 # thinkphp-pdf
-为thinkPHP写的jwt认证组件
+为thinkPHP写的pdf合同处理支付骑缝章组件
 ## 安装
 使用composer管理依赖方式安装
 ```
