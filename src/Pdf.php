@@ -600,4 +600,14 @@ class Pdf extends Fpdi
 		imagedestroy($imageObject);//释放与 $imageObject 关联的内存
 		return $result;
 	}
+
+	public function mkdirs($path, $mode = 0777)
+	{
+		if (!is_dir(dirname($path))) {
+			mkdirs(dirname($path), $mode);
+		}
+		if (!file_exists($path)) {
+			return @mkdir($path, $mode);
+		}
+	}
 }
