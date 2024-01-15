@@ -7,6 +7,6 @@ class Pdf extends Facade
 {
 	protected static function getFacadeClass()
 	{
-		return \think\Fpdi::class;
+		return \think\Pdf::class;
 	}
 }
